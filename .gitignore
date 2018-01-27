@@ -16,6 +16,8 @@
 /node_modules
 /yarn-error.log
 
+.ruby-version
+.ruby-gemset
 .byebug_history
 /public/packs
 /public/packs-test

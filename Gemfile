@@ -41,8 +41,17 @@ group :development, :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'pry'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'capistrano', '~> 3.10', '>= 3.10.1'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails', '~> 1.3', '>= 1.3.1'
+  gem 'capistrano-rbenv'
+  gem 'capistrano-passenger'
+  gem 'capistrano-yarn'
 end
-
+gem 'static_model'
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
   gem 'web-console', '>= 3.3.0'
@@ -51,6 +60,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
-
+gem 'enumerize', '~> 2.0'
+gem 'devise', '~> 4.3'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+gem 'carrierwave', '~> 1.1'
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
