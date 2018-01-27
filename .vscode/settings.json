@@ -1,0 +1,4 @@
+{
+  "ruby.rubocop.executePath": "/Users/khanhpn/.rvm/gems/ruby-2.5.0@news/bin/",
+  "ruby.rubocop.onSave": true
+}
