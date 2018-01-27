@@ -4,7 +4,7 @@ class FooterTopLast extends Component {
   render() {
     return (
       <div className="col-lg-4 col-md-4 col-sm-4">
-        <div class="single_footer_top wow fadeInDown">
+        <div className="single_footer_top wow fadeInDown">
           <h2>Labels</h2>
           <ul className="labels_nav">
             <li>
