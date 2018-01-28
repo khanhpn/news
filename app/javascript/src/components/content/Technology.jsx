@@ -90,11 +90,11 @@ export default class Technology extends Component {
                                               </div>
                                             </div>
                                           </div>
-                                        </li>
-                                      </ul>
-                                    </div>
-                                  </div>
-                                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     )
   }
 }
