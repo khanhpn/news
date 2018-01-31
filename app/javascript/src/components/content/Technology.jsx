@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Image2 from 'images/2.jpg';
+import Image9 from 'images/9.jpg';
 
 export default class Technology extends Component {
   render() {
@@ -16,7 +18,7 @@ export default class Technology extends Component {
                   <ul className="fashion_catgnav wow fadeInDown">
                     <li>
                       <div className="catgimg2_container">
-                        <a href="#"><img alt="" src="images/390x240x1.jpg"/></a>
+                        <a href="#"><img alt="" src={Image9}/></a>
                       </div>
                       <h2 className="catg_titile">
                         <a href="#">Aenean mollis metus sit amet ligula adipiscing</a>
@@ -40,7 +42,7 @@ export default class Technology extends Component {
                                   <li>
                                     <div className="media wow fadeInDown">
                                       <a className="media-left" href="#">
-                                        <img src="images/112x112.jpg" alt=""/></a>
+                                        <img src={Image2} alt=""/></a>
                                         <div className="media-body">
                                           <h4 className="media-heading">
                                             <a href="#">Duis condimentum nunc pretium lobortis
@@ -58,7 +60,7 @@ export default class Technology extends Component {
                                     <li>
                                       <div className="media wow fadeInDown">
                                         <a className="media-left" href="#">
-                                          <img src="images/112x112.jpg" alt=""/></a>
+                                          <img src={Image2} alt=""/></a>
                                           <div className="media-body">
                                             <h4 className="media-heading">
                                               <a href="#">Duis condimentum nunc pretium lobortis
@@ -76,7 +78,7 @@ export default class Technology extends Component {
                                       <li>
                                         <div className="media wow fadeInDown">
                                           <a className="media-left" href="#">
-                                            <img src="images/112x112.jpg" alt=""/></a>
+                                            <img src={Image2} alt=""/></a>
                                             <div className="media-body">
                                               <h4 className="media-heading">
                                                 <a href="#">Duis condimentum nunc pretium lobortis

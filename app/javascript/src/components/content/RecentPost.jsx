@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image2 from 'images/2.jpg';
 
 class RecentPost extends Component {
   render() {
@@ -8,7 +9,7 @@ class RecentPost extends Component {
         <ul className="small_catg popular_catg wow fadeInDown">
           <li>
             <div className="media wow fadeInDown">
-              <a href="#" className="media-left"><img alt="" src="images/112x112.jpg"/></a>
+              <a href="#" className="media-left"><img alt="" src={Image2}/></a>
               <div className="media-body">
                 <h4 className="media-heading"><a href="#">Duis condimentum nunc pretium lobortis</a></h4>
                 <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas
@@ -19,7 +20,7 @@ class RecentPost extends Component {
           </li>
           <li>
             <div className="media wow fadeInDown">
-              <a href="#" className="media-left"><img alt="" src="images/112x112.jpg"/></a>
+              <a href="#" className="media-left"><img alt="" src={Image2}/></a>
               <div className="media-body">
                 <h4 className="media-heading"><a href="#">Duis condimentum nunc pretium lobortis</a></h4>
                 <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas
@@ -30,7 +31,7 @@ class RecentPost extends Component {
           </li>
           <li>
             <div className="media wow fadeInDown">
-              <a href="#" className="media-left"><img alt="" src="images/112x112.jpg"/></a>
+              <a href="#" className="media-left"><img alt="" src={Image2}/></a>
               <div className="media-body">
                 <h4 className="media-heading"><a href="#">Duis condimentum nunc pretium lobortis</a></h4>
                 <p>Nunc tincidunt, elit non cursus euismod, lacus augue ornare metus, egestas

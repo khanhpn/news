@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image2 from 'images/2.jpg';
 
 class Popular extends Component {
   render() {
@@ -18,7 +19,7 @@ class Popular extends Component {
                                               <li>
                                                 <div className="media wow fadeInDown">
                                                   <a className="media-left" href="#">
-                                                    <img src="images/112x112.jpg" alt=""/></a>
+                                                    <img src={Image2} alt=""/></a>
                                                     <div className="media-body">
                                                       <h4 className="media-heading">
                                                         <a href="#">Duis condimentum nunc pretium lobortis
@@ -33,7 +34,7 @@ class Popular extends Component {
                                                 <li>
                                                   <div className="media wow fadeInDown">
                                                     <a className="media-left" href="#">
-                                                      <img src="images/112x112.jpg" alt=""/></a>
+                                                      <img src={Image2} alt=""/></a>
                                                       <div className="media-body">
                                                         <h4 className="media-heading">
                                                           <a href="#">Duis condimentum nunc pretium lobortis
@@ -48,7 +49,7 @@ class Popular extends Component {
                                                   <li>
                                                     <div className="media wow fadeInDown">
                                                       <a className="media-left" href="#">
-                                                        <img src="images/112x112.jpg" alt=""/></a>
+                                                        <img src={Image2} alt=""/></a>
                                                         <div className="media-body">
                                                           <h4 className="media-heading">
                                                             <a href="#">Duis condimentum nunc pretium lobortis
@@ -67,7 +68,7 @@ class Popular extends Component {
                                                     <li>
                                                       <div className="media wow fadeInDown">
                                                         <a className="media-left" href="#">
-                                                          <img src="images/112x112.jpg" alt=""/></a>
+                                                          <img src={Image2} alt=""/></a>
                                                           <div className="media-body">
                                                             <h4 className="media-heading">
                                                               <a href="#">Duis condimentum nunc pretium lobortis
@@ -82,7 +83,7 @@ class Popular extends Component {
                                                       <li>
                                                         <div className="media wow fadeInDown">
                                                           <a className="media-left" href="#">
-                                                            <img src="images/112x112.jpg" alt=""/></a>
+                                                            <img src={Image2} alt=""/></a>
                                                             <div className="media-body">
                                                               <h4 className="media-heading">
                                                                 <a href="#">Duis condimentum nunc pretium lobortis
@@ -97,7 +98,7 @@ class Popular extends Component {
                                                         <li>
                                                           <div className="media wow fadeInDown">
                                                             <a className="media-left" href="#">
-                                                              <img src="images/112x112.jpg" alt=""/></a>
+                                                              <img src={Image2} alt=""/></a>
                                                               <div className="media-body">
                                                                 <h4 className="media-heading">
                                                                   <a href="#">Duis condimentum nunc pretium lobortis

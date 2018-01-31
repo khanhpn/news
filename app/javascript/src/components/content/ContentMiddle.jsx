@@ -1,4 +1,9 @@
 import React, { Component } from 'react'
+import Image3 from 'images/3.jpg';
+import Image4 from 'images/4.jpg';
+import Image14 from 'images/14.jpg';
+import Image15 from 'images/15.jpg';
+import Image16 from 'images/16.jpg';
 
 class ContentMiddle extends Component {
   render() {
@@ -18,7 +23,7 @@ class ContentMiddle extends Component {
                 <li>
                   <div className="catgimg_container">
                     <a href="pages/single.html" className="catg1_img">
-                      <img alt="" src="images/292x150x1.jpg" />
+                      <img alt="" src={Image3} />
                     </a>
                   </div>
                   <h3 className="post_titile">
@@ -28,7 +33,7 @@ class ContentMiddle extends Component {
                 <li>
                   <div className="catgimg_container">
                     <a href="pages/single.html" className="catg1_img">
-                      <img alt="" src="images/292x150x2.jpg" />
+                      <img alt="" src={Image4} />
                     </a>
                   </div>
                   <h3 className="post_titile">
@@ -44,7 +49,7 @@ class ContentMiddle extends Component {
             <div className="slick_slider2">
               <div className="single_featured_slide">
                 <a href="pages/single.html">
-                  <img src="images/567x330x1.jpg" alt="" />
+                  <img src={Image14} alt="" />
                 </a>
                 <h2>
                   <a href="pages/single.html">Praesent vitae quam vitae arcu posuer 1</a>
@@ -55,7 +60,7 @@ class ContentMiddle extends Component {
               </div>
               <div className="single_featured_slide">
                 <a href="pages/single.html">
-                  <img src="images/567x330x2.jpg" alt=""/>
+                  <img src={Image15} alt=""/>
                 </a>
                 <h2>
                   <a href="#">Praesent vitae quam vitae arcu posuer 2</a>
@@ -66,7 +71,7 @@ class ContentMiddle extends Component {
               </div>
               <div className="single_featured_slide">
                 <a href="pages/single.html">
-                  <img src="images/567x330x3.jpg" alt="" />
+                  <img src={Image16} alt="" />
                 </a>
                 <h2>
                   <a href="#">Praesent vitae quam vitae arcu posuer 3</a>
@@ -92,7 +97,7 @@ class ContentMiddle extends Component {
                 <li>
                   <div className="catgimg_container">
                     <a href="pages/single.html" className="catg1_img">
-                      <img alt="" src="images/292x150x1.jpg" />
+                      <img alt="" src={Image3} />
                     </a>
                   </div>
                   <h3 className="post_titile">
@@ -102,7 +107,7 @@ class ContentMiddle extends Component {
                 <li>
                   <div className="catgimg_container">
                     <a href="pages/single.html" className="catg1_img">
-                      <img alt="" src="images/292x150x2.jpg" />
+                      <img alt="" src={Image4} />
                     </a>
                   </div>
                   <h3 className="post_titile">

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import addbanner from '../../../images/addbanner_728x90_V1.jpg';
+import addBanner from 'images/addbanner.jpg';
 
 class Header extends Component {
   render() {
@@ -30,7 +30,7 @@ class Header extends Component {
                 </a>
               </div>
               <div className="header_bottom_right">
-                <a href="#"><img src="{addbanner}" alt="" /></a>
+                <a href="#"><img src={addBanner} alt="" /></a>
               </div>
             </div>
           </div>

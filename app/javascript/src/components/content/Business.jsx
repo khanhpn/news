@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import Image2 from 'images/2.jpg';
+import Image9 from 'images/9.jpg';
 
 class Bussiness extends Component {
   render() {
@@ -15,7 +17,7 @@ class Bussiness extends Component {
           <ul className="fashion_catgnav">
             <li>
               <div className="catgimg2_container">
-                <a href="pages/single.html"><img alt="" src="images/390x240x1.jpg" /></a>
+                <a href="pages/single.html"><img alt="" src={Image9} /></a>
               </div>
               <h2 className="catg_titile">
                 <a href="pages/single.html">Aenean mollis metus sit amet ligula adipiscing</a>
@@ -35,7 +37,7 @@ class Bussiness extends Component {
             <li>
               <div className="media wow fadeInDown">
                 <a className="media-left" href="pages/single.html">
-                  <img src="images/112x112.jpg" alt="" />
+                  <img src={Image2} alt="" />
                 </a>
                 <div className="media-body">
                   <h4 className="media-heading">
@@ -50,7 +52,7 @@ class Bussiness extends Component {
             </li>
             <li>
               <div className="media wow fadeInDown">
-                <a className="media-left" href="#"><img src="images/112x112.jpg" alt="" /></a>
+                <a className="media-left" href="#"><img src={Image2} alt="" /></a>
                 <div className="media-body">
                   <h4 className="media-heading"><a href="#">Duis condimentum nunc pretium lobortis</a></h4>
                   <div className="comments_box">
@@ -62,7 +64,7 @@ class Bussiness extends Component {
             </li>
             <li>
               <div className="media wow fadeInDown">
-                <a className="media-left" href="#"><img src="images/112x112.jpg" alt="" /></a>
+                <a className="media-left" href="#"><img src={Image2} alt="" /></a>
                 <div className="media-body">
                   <h4 className="media-heading"><a href="#">Duis condimentum nunc pretium lobortis</a></h4>
                   <div className="comments_box">

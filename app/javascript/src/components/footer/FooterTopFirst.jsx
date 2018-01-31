@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image1 from 'images/1.jpg';
 
 class FooterTopFirst extends Component {
   render() {
@@ -8,28 +9,28 @@ class FooterTopFirst extends Component {
           <h2>Flicker Images</h2>
           <ul className="flicker_nav">
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
             <li>
-              <a href="#"><img src="images/75x75.jpg" alt=""/></a>
+              <a href="#"><img src={Image1} alt=""/></a>
             </li>
           </ul>
         </div>
