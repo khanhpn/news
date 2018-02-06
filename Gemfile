@@ -45,12 +45,6 @@ group :development, :test do
   gem 'pry'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'capistrano', '~> 3.10', '>= 3.10.1'
-  gem 'capistrano-bundler'
-  gem 'capistrano-rails', '~> 1.3', '>= 1.3.1'
-  gem 'capistrano-rbenv'
-  gem 'capistrano-passenger'
-  gem 'capistrano-yarn'
   gem 'rspec', '~> 3.7'
   gem 'rubocop', '~> 0.52.1'
 end
